@@ -1,0 +1,69 @@
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
+body 
+ {
+    font-family: 'Oswald', Arial,Helvetica,sans-serif;
+}
+
+h1 {
+text-shadow: 2px 2px #d3d3d3 ; 
+}
+
+h1, h2, h3
+ {
+text-align:center;
+   font-family:'Oswald',Impact,'Arial Black',Arial,Helvetica,sans-serif;
+}
+
+.monospace {
+   font-family: monospace;
+}
+
+.muted {
+  color:#666;
+}
+abbr {
+  border-bottom: dotted 1px #cccddd;
+  cursor: help;
+  display:inline-block;
+  line-height:1;
+}
+a abbr {text-decoration:underline;}
+
+.text--normal {font-weight:normal;}
+.text--bigger {font-size:1.25em;}
+
+.text-center {
+ margin: 0 auto;
+ text-align:center; 
+padding: 10px;
+ border-radius: 12px;
+ width:50%;
+  display: table; 
+  background:#ccddcc;    
+}
+
+
+.button-style {
+ font-family:'Oswald',Impact,'Arial Black',Arial,Helvetica,sans-serif;
+font-size: 15px;
+ border-radius: 5px;
+}
+
+
+
+
+
